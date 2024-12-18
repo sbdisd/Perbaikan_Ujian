@@ -6,4 +6,5 @@ while i <= n:
     total += i   
     i += 1      
 
+
 print(f"Jumlah bilangan dari 1 hingga {n} adalah {total}")
