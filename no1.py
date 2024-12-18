@@ -1,10 +1,9 @@
-# Meminta input dari pengguna
 n = int(input("Masukkan nilai n: "))
 
-# Menghitung jumlah bilangan 1 hingga n
-total = 0
-for i in range(1, n + 1):
-    total += i
+total = 0  
+i = 1  
+while i <= n:
+    total += i   
+    i += 1      
 
-# Menampilkan hasil
 print(f"Jumlah bilangan dari 1 hingga {n} adalah {total}")
